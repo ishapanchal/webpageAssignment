@@ -1,0 +1,323 @@
+.nav {
+    background-color: rgb(29, 32, 31);
+}
+
+
+.nav-content {
+    color: #fff;
+    margin-left: 41%;
+    
+}
+
+.para {
+    margin: 10px;
+}
+
+.nav1 {
+    background-color: aquamarine;
+}
+
+
+.nav-content1 {
+    margin-left: 40%;
+}
+
+.bold1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.para1{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav2 {
+    background-color: rgba(245, 241, 241, 0.815);
+    margin-top: -1.1%;
+}
+
+.nav-content2 {
+    
+    font-family: serif;
+
+}
+
+.para2 {
+    margin-left: 49%;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: -5%;
+    margin-bottom: -1%;
+    color: rgb(89, 89, 89);
+}
+
+.bold2 {
+    margin-left: 48%;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.sp1 {
+    margin-left: 20%;
+}
+
+.sp2 {
+    margin-left: 5%;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.sp2:hover {
+    background: red;
+}
+
+.sp2 .badge {
+    position: absolute;
+    top: -2px;
+    right: -1px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background: orange;
+    color: white;
+}
+
+.nav3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-left: 15%;
+}
+
+.nav3 a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.noti1 {
+    text-decoration: none;
+    padding: 12px 23px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.noti1:hover {
+    background: white;
+}
+
+.noti1 .badge {
+    position: absolute;
+    top: 23px;
+    right: -20px;
+    padding: 5px 10px;
+    /* border-radius: 50%; */
+    color: orange;
+    font-size: 8px;
+    /* color: white; */
+}
+
+#cars {
+    border: none;
+}
+
+  .customer-photos {
+    margin-left: 15%;
+    padding: 2%;
+  }
+
+
+  /* Loved Products Section */
+.loved-products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .loved-content {
+    max-width: 400px;
+    margin: 0 20px;
+  }
+  
+  .loved-content h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .loved-content h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .loved-content p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .shop-now-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .product-images {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .product-image {
+    width: 600px;
+    height: 60%;
+  }
+
+  /* Skincare Quiz Section */
+.skincare-quiz {
+    background: cover no-repeat;
+    color: #fff;
+    text-align: center;
+  }
+
+/* Default Styles for Desktop */
+
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
+    /* No changes; use existing desktop styles */
+  }
+  
+  /* Tablet and Small Desktop (768px to 1199px) */
+  @media (max-width: 1199px) {
+    .nav-content, .nav-content1, .nav-content2 {
+      margin-left: auto;
+      text-align: center;
+    }
+    
+    .para2, .bold2, .sp1, .sp2, .noti1 {
+      margin-left: 0;
+    }
+  
+    .product-image {
+      width: 80%;
+      height: auto;
+    }
+    
+    .loved-products {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .loved-content {
+      margin: 20px 0;
+    }
+  
+    .shop-now-btn {
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Mobile (480px to 767px) */
+  @media (max-width: 767px) {
+    .container {
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    .text-section, .slider {
+      max-width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    
+    .nav3 {
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .nav3 a {
+      padding: 20px;
+    }
+  
+    .para2, .bold2 {
+      font-size: 24px;
+      margin: 0 auto;
+    }
+  
+    .product-images {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .product-image {
+      width: 90%;
+      height: auto;
+    }
+    
+    .shop-now-btn {
+      width: 100%;
+      padding: 12px 0;
+      text-align: center;
+    }
+  }
+  
+  /* Small Mobile (0px to 479px) */
+  @media (max-width: 479px) {
+    .nav-content, .nav-content1, .nav-content2 {
+      margin-left: auto;
+      text-align: center;
+      font-size: 14px;
+    }
+  
+    .loved-content h2 {
+      font-size: 1.6em;
+    }
+  
+    .loved-content h3, .loved-content p {
+      font-size: 1em;
+    }
+  
+    .para2, .bold2 {
+      font-size: 20px;
+      text-align: center;
+      margin: 10px 0;
+    }
+  
+    .text-section h2 {
+      font-size: 20px;
+    }
+    
+    .slider img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .shop-now-btn {
+      font-size: 0.9em;
+      padding: 10px 15px;
+    }
+  }
+  
+
+
+/* @media (max-width: 768px) {
+    .navbar-brand {
+      margin: auto;
+      background-color: blue;
+    }
+} */
